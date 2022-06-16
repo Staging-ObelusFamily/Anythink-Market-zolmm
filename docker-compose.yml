@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   anythink-backend:
-    build: ./backend
+    build: ./backenddfgfdg
     container_name: anythink-backend
     command: sh -c "cd backend && yarn install && /wait-for-it.sh mongodb:27017 -q -t 60 && yarn dev"
 
