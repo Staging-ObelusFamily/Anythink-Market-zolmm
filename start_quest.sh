@@ -13,6 +13,8 @@ if [[ -z $WILCO_ID ]]; then
   exit 1
 fi
 
+#bla
+
 printf "[=  ] Stashing any existing changes ... \n"
 git stash &> /dev/null
 
