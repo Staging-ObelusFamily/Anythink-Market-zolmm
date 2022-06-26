@@ -17,6 +17,7 @@ services:
       - "3000:3000"
     depends_on:
       - "mongodb"
+      - "blabla"
 
   anythink-frontend:
     build: ./frontend
